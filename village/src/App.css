@@ -1,3 +1,53 @@
 .App {
   text-align: center;
+  font-family: 'Dokdo', cursive;
+}
+
+.Smurf{
+  background: rgb(110, 214, 248);
+  width: 40%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  background: rgb(110, 214, 248);
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 0 5px;
+  padding: 5px;
+}
+
+h3 {
+  font-size: 40px;
+  margin: 0;
+}
+strong {
+  font-size: 30px;
+}
+
+p{
+  font-size: 30px;
+  margin: 0;
+}
+
+i {
+  margin-left: 340px;
+  margin-top: 10px;
 }
