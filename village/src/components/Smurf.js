@@ -6,7 +6,7 @@ const Smurf = props => {
   const deleteSmurf = e => {
     props.deleteS(props.id)
   }
-console.log(props)
+//console.log(props)
   return (
     
     <div className="Smurf">

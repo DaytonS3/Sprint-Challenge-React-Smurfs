@@ -50,4 +50,39 @@ p{
 i {
   margin-left: 340px;
   margin-top: 10px;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 35%;
+  margin: 0 auto;
+  background: rgb(110, 214, 248);
+  border-radius: 10px;
+  
+}
+.Btn {
+  text-decoration: none;
+  color: black;
+  background: rgb(110, 214, 248);
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 5px auto;
+  font-family: 'Dokdo', cursive;
+  padding: 5px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 5px auto; 
+  background: rgb(110, 214, 248);
+  width: 80%;
+  font-size: 30px;
+  color: black;
+  font-family: 'Dokdo', cursive;
+  font-weight: bold;
+
 }
