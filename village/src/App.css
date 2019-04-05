@@ -1,10 +1,15 @@
 .App {
   text-align: center;
   font-family: 'Dokdo', cursive;
+  background-image: url(./img/Visit-Smurf-Village-In-Smurfs-Reboot-Concept-Art.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 .Smurf{
-  background: rgb(110, 214, 248);
+  background: rgba(110, 214, 248, 0.6);
   width: 40%;
   margin-bottom: 20px;
   border-radius: 20px;
@@ -26,7 +31,7 @@
 a {
   text-decoration: none;
   color: black;
-  background: rgb(110, 214, 248);
+  background: rgba(110, 214, 248, 0.6);
   border: 1px solid black;
   border-radius: 10px;
   font-size: 20px;
@@ -57,15 +62,15 @@ form {
   display: flex;
   flex-wrap: wrap;
   width: 35%;
-  margin: 0 auto;
-  background: rgb(110, 214, 248);
+  margin: 20px auto;
+  background: rgba(110, 214, 248, 0.6);
   border-radius: 10px;
   
 }
 .Btn {
   text-decoration: none;
   color: black;
-  background: rgb(110, 214, 248);
+  background: rgba(110, 214, 248, 0.6);
   border: 1px solid black;
   border-radius: 10px;
   font-size: 20px;
@@ -78,11 +83,28 @@ input {
   border: none;
   border-bottom: 1px solid black;
   margin: 5px auto; 
-  background: rgb(110, 214, 248);
+  background: rgba(110, 214, 248, 0);
   width: 80%;
   font-size: 30px;
-  color: black;
   font-family: 'Dokdo', cursive;
   font-weight: bold;
 
+}
+
+h1 {
+  color: black;
+  background: rgba(110, 214, 248, 0.6);
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  
+  padding: 5px;
+}
+
+.SmurfForm {
+  height: 300px;
+}
+
+::placeholder {
+  color:black;
 }
