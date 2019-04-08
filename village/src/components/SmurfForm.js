@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../App.css'
 
 class SmurfForm extends Component {
   constructor(props) {
@@ -12,6 +13,7 @@ class SmurfForm extends Component {
 
   addSmurf = event => {
     event.preventDefault();
+    this.props.PostS(this.state)
     // add code to create the smurf using the api
 
     this.setState({
@@ -26,6 +28,7 @@ class SmurfForm extends Component {
   };
 
   render() {
+    
     return (
       <div className="SmurfForm">
         <form onSubmit={this.addSmurf}>
@@ -47,7 +50,7 @@ class SmurfForm extends Component {
             value={this.state.height}
             name="height"
           />
-          <button type="submit">Add to the village</button>
+          <button className="Btn" type="submit">Add to the village</button>
         </form>
       </div>
     );
